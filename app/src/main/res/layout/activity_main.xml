@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_page"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fyh"
+        android:text="Find your \nHappiness"
+        android:textColor="#B22727"
+        android:textSize="25dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/withmeow"
+        android:layout_below="@id/fyh"
+        android:text="With Meow"
+        android:textColor="#006E7F"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finding"
+        android:layout_below="@id/withmeow"
+        android:text="finding your cat is easier to do\n
+without having to go outside"
+        android:textColor="#B22727"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginLeft="50dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbtn"
+        android:layout_below="@id/finding"
+        android:text="NEXT  >"
+        android:textColor="#F8CB2E"
+        android:fontFamily="@font/montserrat_bold"
+        android:backgroundTint="#B22727"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="35dp"/>
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextbtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:background="@drawable/cat"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_us"
+        android:layout_below="@id/cat"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekno"
+        android:layout_below="@id/about_us"
+        android:text="Technopreneur"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tekins"
+        android:layout_below="@id/tekno"
+        android:text="Teknik Instrumentasi"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alamat"
+        android:layout_below="@id/tekins"
+        android:text="Gedung A Kampus ITS, \nKeputih, Kec. Sukolilo, \nKota SBY, Jawa Timur \n60117"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_us"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/tekno"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="right"
+        android:text="6C"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/sosmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kelas"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/tekno"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="right"
+        android:text="MeowAdopt \nMeowAdopt.in \nFindYourPussy \n082356789001 \nMeowAdopt.com"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+
+</RelativeLayout>

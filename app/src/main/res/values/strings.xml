@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">meowaddopt</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //persi
+    <string name="persi">Persi</string>
+    <string name="persiDesc">\n2 Month
+        \nMale
+        \nSurabaya Pusat
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //dundun
+    <string name="dundun">Dundun</string>
+    <string name="dundunDesc">\n3 Month
+        \nFemale
+        \nSurabaya Timur
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //grandong
+    <string name="grandong">Grandong</string>
+    <string name="grandongDesc">\n4 Month
+        \nmale
+        \nSurabaya Timur
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //marco
+    <string name="marco">Marco</string>
+    <string name="marcoDesc">\n3 Month
+        \nmale
+        \nSurabaya Barat
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //alexa
+    <string name="alexa">Alexa</string>
+    <string name="alexaDesc">\n3 Month
+        \nFemale
+        \nSurabaya Utara
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //lulu
+    <string name="lulu">Lulu</string>
+    <string name="luluDesc">\n6 Month
+        \nFemale
+        \nSurabaya Selatan
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //cici
+    <string name="cici">Cici</string>
+    <string name="ciciDesc">\n4 Month
+        \nFemale
+        \nSurabaya Selatan
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //max
+    <string name="max">Max</string>
+    <string name="maxDesc">\n2 Month
+        \nmale
+        \nSurabaya Barat
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //chloe
+    <string name="chloe">Chloe</string>
+    <string name="chloeDesc">\n12 Month
+        \nFemale
+        \nSurabaya Utara
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //lucy
+    <string name="lucy">Lucy</string>
+    <string name="lucyDesc">\n10 Month
+        \nFemale
+        \nSurabaya Barat
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //lily
+    <string name="lily">Lily</string>
+    <string name="lilyDesc">\n8 Month
+        \nFemale
+        \nSurabaya Selatan
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+    //coco
+    <string name="coco">Coco</string>
+    <string name="cocoDesc">\n7 Month
+        \nFemale
+        \nSurabaya Utara
+        \nPunya urat malu
+        \nKehidupan tidak neko-neko
+        \nPecinta royal canin (Anti Whiskas)
+    </string>
+
+</resources>
